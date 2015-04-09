@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Universal Kiosk</title>
+        <link rel="stylesheet" href="browser.css">
+        <script src="browser.js"></script>
+    </head>
+    <body>
+        <div id="control-bar">
+            <button id="exit">EXIT</button>
+        </div>
+        <div id="location-layer">
+            <form id="location-form" action="">
+                <input id="location" type="text" value="http://" spellcheck="false"/>
+                <br/>
+                <button id="go" type="submit">Go!</button>
+            </form>
+        </div>
+        <webview id="webview" style="display: none;"></webview>
+    </body>
+</html>
