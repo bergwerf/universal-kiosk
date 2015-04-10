@@ -9,6 +9,12 @@ body, input, button
     font-family: 'Open Sans', sans-serif;
 }
 
+::selection
+{
+    background-color: #FFCDD2;
+    color: #B71C1C;
+}
+
 button
 {
     cursor: pointer;

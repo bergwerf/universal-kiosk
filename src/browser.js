@@ -2,7 +2,7 @@ window.onload = function()
 {
     chrome.storage.sync.get('defaultUrl', function (obj)
     {
-        document.querySelector('#location').value = obj.defaultUrl || "http://";
+        document.querySelector('#location').value = obj.defaultUrl || "http://goo.gl/";
     });
 
     var webview = document.querySelector('#webview');
