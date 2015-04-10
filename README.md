@@ -24,6 +24,11 @@ How to use with Google Forms
 You can create a short URL for your Google Forms exam using http://goo.gl,
 students can then enter this URL in the Universal Kiosk app and start the test.
 
+Features
+--------
+- **Set default URL:** you can configure the default URL which is shown when the
+    app is launched by clicking the **SET DEFAULT URL** button in the top bar.
+
 
 License
 -------

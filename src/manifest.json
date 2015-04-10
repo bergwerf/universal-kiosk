@@ -11,13 +11,14 @@
         "128": "icon_128.png",
         "16": "icon_16.png"
     },
-    "version":"0.1",
+    "version":"0.2",
     "manifest_version": 2,
     "minimum_chrome_version": "31.0.0.0",
     "name": "Universal Kiosk",
     "permissions": [
         "webview",
-        "fullscreen"
+        "fullscreen",
+        "storage"
     ],
     "kiosk_enabled": true
 }

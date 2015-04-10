@@ -20,7 +20,7 @@ button
     background: #333;
 }
 
-#exit
+.control-button
 {
     background: #333;
     border: none;
@@ -30,19 +30,24 @@ button
     text-shadow: 0 0 3px #000;
 }
 
-#exit:hover
+.control-button:hover
 {
     background: #666;
 }
 
-#exit:active
+.control-button:active
 {
     color: red;
 }
 
-#exit:focus
+.control-button:focus
 {
     outline: none;
+}
+
+#save-preset
+{
+    float: left;
 }
 
 #location-layer
