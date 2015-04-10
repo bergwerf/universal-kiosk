@@ -17,27 +17,27 @@ button
 #control-bar
 {
     text-align: right;
-    background: #333;
+    background: #F44336;
 }
 
 .control-button
 {
-    background: #333;
+    background: #F44336;
     border: none;
     padding: 5px 15px;
     font-weight: bold;
-    color: #eee;
-    text-shadow: 0 0 3px #000;
+    color: #FFCDD2;
+    text-shadow: 0 0 3px #ff0000;
 }
 
 .control-button:hover
 {
-    background: #666;
+    background: #EF5350;
 }
 
 .control-button:active
 {
-    color: red;
+    background: #B71C1C;
 }
 
 .control-button:focus
