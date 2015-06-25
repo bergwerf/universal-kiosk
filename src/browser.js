@@ -9,8 +9,7 @@ window.onload = function()
 
     document.querySelector('#save-preset').onclick = function()
     {
-        var url = document.querySelector('#location').value;
-        chrome.storage.sync.set({ 'defaultUrl': url }, function()
+        chrome.storage.sync.set({ 'defaultUrl': getURL() }, function()
         {
             document.querySelector('#location').style.transition = "";
             window.setTimeout(function()
@@ -33,7 +32,7 @@ window.onload = function()
     document.querySelector('#location-form').onsubmit = function(e)
     {
         e.preventDefault();
-        webview.src = document.querySelector('#location').value;
+        webview.src = getURL();
         document.querySelector('#location-layer').style.display = "none";
         document.querySelector('#save-preset').style.display = "none";
         webview.style.display = "block";
@@ -42,6 +41,13 @@ window.onload = function()
     resize();
     window.onresize = resize();
 };
+
+function getURL()
+{
+    var url = document.querySelector('#location').value;
+    if(url.match(/^https?:\/\//) == null) return "http://" + url;
+    else return url;
+}
 
 function resize()
 {
