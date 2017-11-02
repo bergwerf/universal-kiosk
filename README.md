@@ -1,3 +1,5 @@
+This app is not being maintained. For an alternative Kiosk app with more options, check out: https://github.com/cook-company/kiosk.
+
 <a target="_blank" href="https://chrome.google.com/webstore/detail/universal-kiosk/lhomibkaedgohldjinnmpljlaibjplnc">![Available in the Chrome Web Store](https://raw.github.com/GoogleChrome/chrome-app-samples/master/tryitnowbutton.png "Click here to install this application from the Chrome Web Store")</a>
 
 Universal Kiosk
